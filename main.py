@@ -23,7 +23,7 @@ instrument.clear_buffers_before_each_transaction = True
 
 while True:
 
-  for counter, n in [('chauffage',2),('ECS',3),('PV',1)]:
+  for counter, n in [('ECS',2),('chauffage',3),('PV',1)]:
     instrument.address = n
 
     try:
